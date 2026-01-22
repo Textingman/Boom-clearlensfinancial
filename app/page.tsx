@@ -4,38 +4,38 @@ import { CheckCircle, Zap, Users } from 'lucide-react';
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-pink-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-green-50 to-white">
       {/* Navigation */}
       <nav className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
+          <div className="flex justify-between items-center h-32">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
                 <Image 
-                  src="/bwo-verify-logo-trimmed.png" 
-                  alt="BWO Verify" 
-                  width={300} 
-                  height={100}
-                  className="h-20 w-auto"
+                  src="/ASC Verify.png" 
+                  alt="ASC Verify" 
+                  width={500} 
+                  height={167}
+                  className="h-24 w-auto"
                   priority
                 />
               </Link>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <Link href="/" className="text-gray-900 hover:text-[#d364a4] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/" className="text-gray-900 hover:text-[#2563eb] px-3 py-2 rounded-md text-sm font-medium">
                   Home
                 </Link>
-                <Link href="/about" className="text-gray-600 hover:text-[#d364a4] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/about" className="text-gray-600 hover:text-[#2563eb] px-3 py-2 rounded-md text-sm font-medium">
                   About
                 </Link>
-                <Link href="/privacy" className="text-gray-600 hover:text-[#d364a4] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/privacy" className="text-gray-600 hover:text-[#2563eb] px-3 py-2 rounded-md text-sm font-medium">
                   Privacy
                 </Link>
-                <Link href="/terms" className="text-gray-600 hover:text-[#d364a4] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/terms" className="text-gray-600 hover:text-[#2563eb] px-3 py-2 rounded-md text-sm font-medium">
                   Terms
                 </Link>
-                <Link href="/signup" className="bg-[#d364a4] text-white hover:bg-[#c24d93] px-4 py-2 rounded-md text-sm font-medium">
+                <Link href="/signup" className="bg-[#2563eb] text-white hover:bg-[#1d4ed8] px-4 py-2 rounded-md text-sm font-medium">
                   Get Started
                 </Link>
               </div>
@@ -49,7 +49,7 @@ export default function HomePage() {
         <div className="text-center">
           <h1 className="text-5xl font-extrabold text-gray-900 sm:text-6xl md:text-7xl">
             Verify Your Customers
-            <span className="block text-[#d364a4]">With Confidence</span>
+            <span className="block text-[#2563eb]">With Confidence</span>
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-xl text-gray-600">
             Send verification and notifications easily. Ensure your customers are who they say they are with our SMS verification service.
@@ -57,13 +57,13 @@ export default function HomePage() {
           <div className="mt-10 flex justify-center gap-4">
             <Link
               href="/signup"
-              className="px-8 py-4 bg-[#d364a4] text-white text-lg font-semibold rounded-lg hover:bg-[#c24d93] transition-colors shadow-lg"
+              className="px-8 py-4 bg-[#2563eb] text-white text-lg font-semibold rounded-lg hover:bg-[#1d4ed8] transition-colors shadow-lg"
             >
               Get Started Free
             </Link>
             <Link
               href="/about"
-              className="px-8 py-4 bg-white text-[#d364a4] text-lg font-semibold rounded-lg hover:bg-gray-50 transition-colors border-2 border-[#d364a4]"
+              className="px-8 py-4 bg-white text-[#2563eb] text-lg font-semibold rounded-lg hover:bg-gray-50 transition-colors border-2 border-[#2563eb]"
             >
               Learn More
             </Link>
@@ -74,7 +74,7 @@ export default function HomePage() {
       {/* Features Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900">Why Choose BWO Verify?</h2>
+          <h2 className="text-4xl font-bold text-gray-900">Why Choose ASC Verify?</h2>
           <p className="mt-4 text-xl text-gray-600">
             Trusted by businesses to verify customer identity and improve engagement
           </p>
@@ -84,7 +84,7 @@ export default function HomePage() {
           {/* Feature 1 */}
           <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow">
             <div className="flex justify-center mb-4">
-              <CheckCircle className="w-12 h-12 text-[#d364a4]" />
+              <CheckCircle className="w-12 h-12 text-[#2563eb]" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
               Easy Verification
@@ -97,7 +97,7 @@ export default function HomePage() {
           {/* Feature 2 */}
           <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow">
             <div className="flex justify-center mb-4">
-              <Zap className="w-12 h-12 text-[#d364a4]" />
+              <Zap className="w-12 h-12 text-[#2563eb]" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
               Lightning Fast
@@ -110,7 +110,7 @@ export default function HomePage() {
           {/* Feature 3 */}
           <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow">
             <div className="flex justify-center mb-4">
-              <Users className="w-12 h-12 text-[#d364a4]" />
+              <Users className="w-12 h-12 text-[#2563eb]" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
               Multi-Brand Support
@@ -164,7 +164,7 @@ export default function HomePage() {
             <div className="rounded-lg overflow-hidden sticky top-8 flex items-start justify-center">
               <Image 
                 src="/Phoneimage.png" 
-                alt="BWO Verify Solutions" 
+                alt="ASC Verify Solutions"
                 width={350} 
                 height={350}
                 className="w-auto h-auto object-contain max-w-full"
@@ -176,17 +176,17 @@ export default function HomePage() {
 
       {/* CTA Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="bg-[#d364a4] rounded-2xl shadow-2xl overflow-hidden">
+        <div className="bg-[#2563eb] rounded-2xl shadow-2xl overflow-hidden">
           <div className="px-6 py-16 sm:px-12 sm:py-20 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
               Ready to Get Started?
             </h2>
-            <p className="text-xl text-pink-100 mb-8 max-w-2xl mx-auto">
-              Join businesses that trust BWO Verify for SMS verification and improved customer engagement.
+            <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+              Join businesses that trust ASC Verify for SMS verification and improved customer engagement.
             </p>
             <Link
               href="/signup"
-              className="inline-block px-8 py-4 bg-white text-[#d364a4] text-lg font-semibold rounded-lg hover:bg-gray-100 transition-colors shadow-lg"
+              className="inline-block px-8 py-4 bg-white text-[#2563eb] text-lg font-semibold rounded-lg hover:bg-gray-100 transition-colors shadow-lg"
             >
               Get Started Today
             </Link>
@@ -199,7 +199,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">BWO Verify</h3>
+              <h3 className="text-xl font-bold mb-4">ASC Verify</h3>
               <p className="text-gray-400">
                 SMS verification for businesses.
               </p>
@@ -237,12 +237,12 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@bwoverify.com
+                support@ascverify.com
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 BWO Verify. All rights reserved.</p>
+            <p>&copy; 2025 ASC Verify. All rights reserved.</p>
           </div>
         </div>
       </footer>
