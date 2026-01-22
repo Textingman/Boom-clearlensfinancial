@@ -70,8 +70,8 @@ function VerifyPageContent() {
         {/* Logo/Brand */}
         <div className="flex justify-center mb-8">
           <Image 
-            src="/ASC Verify.png" 
-            alt="ASC Verify" 
+            src="/NRCVerify.png" 
+            alt="NRC Verify" 
             width={320} 
             height={107}
             className="h-24 w-auto"
@@ -126,7 +126,7 @@ function VerifyPageContent() {
         {/* Footer */}
         <div className="text-center pt-6 border-t border-gray-200">
           <p className="text-xs text-gray-500">
-            Secured by ASC Verify
+            Secured by NRC Verify
           </p>
         </div>
       </div>
